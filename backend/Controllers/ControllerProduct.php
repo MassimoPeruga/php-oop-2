@@ -59,13 +59,14 @@ foreach ($products_db as $product) {
             'message' => $e->getMessage(),
         ];
 
+        $errorLogPath = __DIR__ . '/../Logs/errors.log';
         // Leggi gli errori esistenti
-        $errors = json_decode(file_get_contents(__DIR__ . "/../Logs/errors.log"), true) ?? [];
+        $errors = json_decode(file_get_contents($errorLogPath), true) ?? [];
 
         // Aggiungi il nuovo errore all'array
         $errors[] = $errorData;
 
-        // Scrivi l'array di errori nel file degli errori
-        file_put_contents(__DIR__ . "/errors.log", json_encode($errors, JSON_PRETTY_PRINT));
+        // Scrivi l'array aggiornato nel file
+        file_put_contents($errorLogPath, json_encode($errors, JSON_PRETTY_PRINT));
     }
 }

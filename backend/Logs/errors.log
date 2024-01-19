@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2024-01-19 09:12:59",
+        "product": {
+            "name": "Croccantini",
+            "category": "Gatti",
+            "type": "Cibo",
+            "price": 0,
+            "image": "croccantini.jfif",
+            "ingredients": [
+                "tonno",
+                "salmone"
+            ]
+        },
+        "message": "Il prezzo deve essere maggiore di zero."
+    },
+    {
+        "timestamp": "2024-01-19 09:13:16",
+        "product": {
+            "name": "Croccantini",
+            "category": "Gatti",
+            "type": "Cibo",
+            "price": 0,
+            "image": "croccantini.jfif",
+            "ingredients": [
+                "tonno",
+                "salmone"
+            ]
+        },
+        "message": "Il prezzo deve essere maggiore di zero."
+    }
+]
