@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Biscotti",
+        "category": "Cani",
+        "type": "Cibo",
+        "price": 15.99,
+        "image": "biscotti.jfif",
+        "ingredients": [
+            "manzo",
+            "vitello"
+        ]
+    },
+    {
+        "name": "Croccantini",
+        "category": "Gatti",
+        "type": "Cibo",
+        "price": 12.99,
+        "image": "croccantini.jfif",
+        "ingredients": [
+            "tonno",
+            "salmone"
+        ]
+    },
+    {
+        "name": "Osso",
+        "category": "Cani",
+        "type": "Giocattolo",
+        "price": 9.99,
+        "image": "osso.jfif",
+        "size": "big",
+        "materials": [
+            {
+                "material": "pelle sintetica",
+                "percentage": 100
+            }
+        ]
+    },
+    {
+        "name": "Cuccia",
+        "category": "Gatti",
+        "type": "Cuccia",
+        "price": 29.99,
+        "image": "cuccia.jfif",
+        "size": "big",
+        "materials": [
+            {
+                "material": "cotone",
+                "percentage": 20
+            },
+            {
+                "material": "spugna",
+                "percentage": 80
+            }
+        ]
+    },
+    {
+        "name": "Gomitolo",
+        "category": "Gatti",
+        "type": "Giocattolo",
+        "price": 7.99,
+        "image": "gomitolo.jfif",
+        "size": "small",
+        "materials": [
+            {
+                "material": "spago",
+                "percentage": 100
+            }
+        ]
+    },
+    {
+        "name": "Tiragraffi",
+        "category": "Gatti",
+        "type": "Giocattolo",
+        "price": 34.99,
+        "image": "tiragraffi.jfif",
+        "size": "small",
+        "materials": [
+            {
+                "material": "sisal",
+                "percentage": 90
+            },
+            {
+                "material": "peluche",
+                "percentage": 10
+            }
+        ]
+    },
+    {
+        "name": "Guinzaglio",
+        "category": "Cani",
+        "type": "Accessorio",
+        "price": 19.99,
+        "image": "guinzaglio.jfif",
+        "size": "big",
+        "materials": [
+            {
+                "material": "pelle sintetica",
+                "percentage": 10
+            },
+            {
+                "material": "corda",
+                "percentage": 85
+            },
+            {
+                "material": "acciaio inox",
+                "percentage": 5
+            }
+        ]
+    },
+    {
+        "name": "Lettiera",
+        "category": "Gatti",
+        "type": "Accessorio",
+        "price": 24.99,
+        "image": "lettiera.jfif",
+        "size": "big",
+        "materials": [
+            {
+                "material": "plastica",
+                "percentage": 100
+            }
+        ]
+    },
+    {
+        "name": "Collare con papillon",
+        "category": "Gatti",
+        "type": "Accessorio",
+        "price": 12.99,
+        "image": "collare.jfif",
+        "size": "small",
+        "materials": [
+            {
+                "material": "cotone",
+                "percentage": 100
+            }
+        ]
+    },
+    {
+        "name": "Ciotola",
+        "category": "Cani",
+        "type": "Accessorio",
+        "price": 14.99,
+        "image": "ciotola.jfif",
+        "size": "big",
+        "materials": [
+            {
+                "material": "acciaio inox",
+                "percentage": 100
+            }
+        ]
+    }
+]

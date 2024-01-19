@@ -1,0 +1,31 @@
+a {
+    all: unset;
+}
+
+body {
+    background-color: #abd1c6;
+}
+
+header {
+    background-color: #fffffe;
+    color: #0f3433;
+}
+
+.ms_card {
+    background-color: #004643;
+    color: #e8e4e6;
+    position: relative;
+}
+
+.ms_card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform linear .125s;
+}
+
+.ms_badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    scale: 1.25;
+}
